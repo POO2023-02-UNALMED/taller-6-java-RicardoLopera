@@ -10,8 +10,8 @@ public class Fabricante {
 		this.nombre = nombre;
 		this.pais = pais;
 	}
-	public static Fabrica fabricaMayorVentas() {
-		Arraylist<Fabrica> listado = Vehiculo.arrayFabricantes;
+	public static Fabricante fabricaMayorVentas() {
+		Arraylist<Fabricante> listado = Vehiculo.arrayFabricantes;
 		int n = listado.size();
 		int maxcount = 0;
 		Fabricante fabricanteMasRepetido = null;

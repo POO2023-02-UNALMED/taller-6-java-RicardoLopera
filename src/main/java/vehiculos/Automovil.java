@@ -3,7 +3,7 @@ package vehiculos;
 public class Automovil extends Vehiculo {
 	
 	private int puestos;
-	protected static int nAutomoviles;
+	protected static int nAutomoviles = 0;
 	
 	public Automovil(String placa, String nombre, int precio, int peso, Fabricante fabricante, int puestos) {
 		super(placa, 4, 100, nombre, precio, peso, "FWD", fabricante);

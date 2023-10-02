@@ -34,7 +34,7 @@ public class Vehiculo {
 		
 		int automoviles = Automovil.getnAutomoviles();
 		int camionetas = Camioneta.getnCamionetas();
-		int camiones = Camiones.getnCamiones();
+		int camiones = Camion.getnCamiones();
 		
 		String cadena = "Automoviles:"+ automoviles +"\n"+ "Camionetas:"+ camionetas+"\n" + "Camiones:"+ camiones +"\n";
 		

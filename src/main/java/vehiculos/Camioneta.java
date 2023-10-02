@@ -2,8 +2,8 @@ package vehiculos;
 
 public class Camioneta extends Vehiculo {
 
-	boolean volco;
-	private static int nCamionetas;
+	private boolean volco;
+	protected static int nCamionetas;
 	
 	public Camioneta (String placa,int puertas, String nombre, int precio, int peso, Fabricante fabricante, boolean volco) {
 		super(placa, puertas, 90, nombre, precio, peso, "4X4", fabricante);

@@ -10,19 +10,6 @@ public class Fabricante {
 		this.nombre = nombre;
 		this.pais = pais;
 	}
-	
-	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	public Pais getPais() {
-		return pais;
-	}
-	public void setPais(Pais pais) {
-		this.pais = pais;
-	}
 	public static Fabrica fabricaMayorVentas() {
 		Arraylist<Fabrica> listado = Vehiculo.arrayFabricantes;
 		int n = listado.size();
@@ -42,4 +29,18 @@ public class Fabricante {
 		}
 		return fabricanteMasRepetido;
 	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public Pais getPais() {
+		return pais;
+	}
+	public void setPais(Pais pais) {
+		this.pais = pais;
+	}
+	
 }
